@@ -104,13 +104,23 @@ cd hhs-care-demand-forecast
 pip install -r requirements.txt
 ```
 
+### 3. Run the Jupyter Notebook
+
+```
+jupyter notebook Care_Load_Forecasting.ipynb
+```
+
 ### 4. Run the Streamlit application
 
 ```
 python -m streamlit run main.py
 ```
 
-The Streamlit dashboard will automatically open in your web browser.
+The Streamlit dashboard will automatically open in your web browser at.
+
+```
+http://localhost:8501
+```
 
 ---
 
