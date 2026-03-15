@@ -9,8 +9,8 @@ st.title("HHS Care Demand Forecast Dashboard")
 st.sidebar.header("Forecast Settings")
 
 # LOAD DATA
-forecast_df = pd.read_csv(r"C:\Users\91701\OneDrive\Desktop\hhs-care-demand-forecast\data\forecast_predictions.csv")
-kpi_table = pd.read_csv(r"C:\Users\91701\OneDrive\Desktop\hhs-care-demand-forecast\data\kpi_table.csv")
+forecast_df = pd.read_csv("forecast_predictions.csv")
+kpi_table = pd.read_csv("kpi_table.csv")
 
 # MODEL SELECTION
 model = st.sidebar.selectbox(
